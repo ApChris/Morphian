@@ -25,7 +25,7 @@ python morphian.py
 3. The tool will then generate a list of possible passwords based on the given characteristics.
 4. The generated passwords will be categorized into different strength levels based on their guessability.
 
-![Image Description](./images/morphian_pic_2.png)
+![Image Description](./images/morphian_picture_2.png)
 
 ## Output
 Morphian will generate a list of unique possible user passwords by combining the provided characteristics. The generated passwords will be categorized into four different strength levels:
