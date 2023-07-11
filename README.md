@@ -11,7 +11,7 @@ The intention behind this design is to allow the user to start with more guessab
 
 1. Clone the repository or download the `morphian.py` script.
 2. Ensure you have Python 3.x installed on your system.
-3. Install the required libray by running the following command:
+3. Install the required library by running the following command:
 ```
 pip3 install zxcvbn
 ```
