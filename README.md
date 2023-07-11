@@ -32,7 +32,7 @@ python3 morphian.py
 
 ![Image Description](./images/morphian_picture_2.png)
 
-## Output
+## Results
 Morphian will generate a list of unique possible user passwords by combining the provided characteristics. The generated passwords will be categorized into four different strength levels:
 
 - Strength 0: Too guessable - risky password (guesses < 10^3).
@@ -53,9 +53,10 @@ The generated passwords will be appended to the respective text files:
 
 Please check the respective files to find the generated passwords for each strength level.
 
-
-Example
-
+Weak
+![Image Description](./images/morphian_picture_3.png)
+![Image Description](./images/morphian_picture_4.png)
+![Image Description](./images/morphian_picture_5.png)
 
 ## Note
 Please ensure you use this tool responsibly and only on systems you have proper authorization to assess. Be mindful of any legal and ethical implications when using this tool.
