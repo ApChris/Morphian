@@ -40,8 +40,9 @@ The generated passwords will be appended to the respective text files:
 Please check the respective files to find the generated passwords for each strength level.
 
 
-Examples
-
+Example
+![Image Description](./images/morphian_pic_1.png)
+![Image Description](./images/morphian_pic_2.png)
 ...
 Note
 Please ensure you use this tool responsibly and only on systems you have proper authorization to assess. Be mindful of any legal and ethical implications when using this tool.
