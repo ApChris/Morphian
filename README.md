@@ -2,22 +2,30 @@
 
 Morphian is a Python3 script that generates unique possible user passwords based on user-provided characteristics. It can be used as an ethical hacking tool to assess password security or for educational purposes.
 
+## Purpose and Design
+
+The tool has not been designed to generate all possible combinations of the given characteristics combined with special characters. Instead, it focuses on providing the user with four wordlists containing possible passwords categorized into different strength levels based on their guessability.
+The intention behind this design is to allow the user to start with more guessable passwords and then gradually progress to more secure and less predictable options.
+
 ## Installation
 
 1. Clone the repository or download the `morphian.py` script.
 2. Ensure you have Python 3.x installed on your system.
 3. Install the required dependencies by running the following command:
 
-## Usage
-
-1. Clone the repository or download the `morphian.py` script.
-2. Ensure you have Python 3.x installed on your system.
-3. Run the script using the following command:
-
+## Execution
+1. Run the script using the following command:
 ```
 python morphian.py
 ```
-Follow the prompts to enter various characteristics such as name, surname, birthday, hobby, etc.
+2. Follow the prompts to enter various characteristics such as name, surname, birthday, hobby, etc.
+   
+![Image Description](./images/morphian_pic_1.png)
+
+3. The tool will then generate a list of possible passwords based on the given characteristics.
+4. The generated passwords will be categorized into different strength levels based on their guessability.
+
+![Image Description](./images/morphian_pic_2.png)
 
 ## Output
 Morphian will generate a list of unique possible user passwords by combining the provided characteristics. The generated passwords will be categorized into four different strength levels:
@@ -41,11 +49,10 @@ Please check the respective files to find the generated passwords for each stren
 
 
 Example
-![Image Description](./images/morphian_pic_1.png)
-![Image Description](./images/morphian_pic_2.png)
-...
-Note
+
+
+## Note
 Please ensure you use this tool responsibly and only on systems you have proper authorization to assess. Be mindful of any legal and ethical implications when using this tool.
 
-License
+## License
 Morphian is licensed under the GNU General Public License v3.0.
