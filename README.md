@@ -1,6 +1,6 @@
 # Morphian
 
-Morphian is a Python3 tool that generates unique possible user passwords based on target characteristics. It can be used as an ethical hacking tool to assess password security or for educational purposes.
+Morphian is a Python3 tool designed to generate unique user passwords by considering specific target characteristics. It can be used as an ethical hacking tool to assess password security or for educational purposes.
 
 ## Purpose and Design
 
@@ -19,9 +19,11 @@ pip3 install zxcvbn
 ## Execution
 1. Run the script using the following command:
 ```
-python morphian.py
+python3 morphian.py
 ```
 2. Follow the prompts to enter various characteristics such as name, surname, birthday, hobby, etc.
+
+> Note: If you don't want to fill out a specific field just press enter.
    
 ![Image Description](./images/morphian_pic_1.png)
 
