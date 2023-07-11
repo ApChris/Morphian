@@ -1,6 +1,6 @@
 # Morphian
 
-Morphian is a Python3 script that generates unique possible user passwords based on user-provided characteristics. It can be used as an ethical hacking tool to assess password security or for educational purposes.
+Morphian is a Python3 tool that generates unique possible user passwords based on user-provided characteristics. It can be used as an ethical hacking tool to assess password security or for educational purposes.
 
 ## Purpose and Design
 
