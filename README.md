@@ -41,7 +41,8 @@ Morphian will generate a list of unique possible user passwords by combining the
 - Strength 3: Safely unguessable - moderate protection from offline slow-hash scenario (guesses < 10^10).
 - Strength 4: Very unguessable - strong protection from offline slow-hash scenario (guesses >= 10^10).
 
-The strength levels and corresponding protection descriptions are based on the zxcvbn library. Please refer to their repository and the `readme.md` for more detailed information.
+The strength levels and corresponding protection descriptions are based on the zxcvbn library. Please refer to their repository and the `readme.md` for more detailed information. \
+Reference: https://github.com/dropbox/zxcvbn#readme
 
 The generated passwords will be appended to the respective text files:
 
