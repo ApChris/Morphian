@@ -56,7 +56,8 @@ Please check the respective files to find the generated passwords for each stren
 Weak
 ![Image Description](./images/morphian_picture_3.png)
 ![Image Description](./images/morphian_picture_4.png)
-![Image Description](./images/morphian_picture_5.png)
+![Image Description](./images/morphian_picture_5v2.png)
+![Image Description](./images/morphian_picture_6.png)
 
 ## Note
 Please ensure you use this tool responsibly and only on systems you have proper authorization to assess. Be mindful of any legal and ethical implications when using this tool.
