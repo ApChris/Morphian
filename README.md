@@ -51,14 +51,6 @@ The generated passwords will be appended to the respective text files:
 - `strong.txt`: Contains passwords categorized as somewhat guessable (strength 2) or safely unguessable (strength 3).
 - `verystrong.txt`: Contains passwords categorized as very unguessable (strength 4).
 
-Please check the respective files to find the generated passwords for each strength level.
-
-Weak
-![Image Description](./images/morphian_picture_3.png)
-![Image Description](./images/morphian_picture_4.png)
-![Image Description](./images/morphian_picture_5v2.png)
-![Image Description](./images/morphian_picture_6.png)
-
 ## Note
 Please ensure you use this tool responsibly and only on systems you have proper authorization to assess. Be mindful of any legal and ethical implications when using this tool.
 
