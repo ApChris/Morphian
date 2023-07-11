@@ -25,7 +25,7 @@ python3 morphian.py
 
 > Note: If you don't want to fill out a specific field just press enter.
    
-![Image Description](./images/morphian_pic_1.png)
+![Image Description](./images/morphian_picture_1.png)
 
 3. The tool will then generate a list of possible passwords based on the given characteristics.
 4. The generated passwords will be categorized into different strength levels based on their guessability.
