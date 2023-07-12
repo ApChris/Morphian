@@ -227,7 +227,6 @@ def print_user_info(info):
     print(colored("--------------------------", "blue"))
     for field in secondary_fields:
         if info[field]:
-            #print(colored(f"{field.capitalize()}: ", "cyan") + colored(info[field], "white"))
             print(colored(f"{field.replace('_', ' ').capitalize()}: ", "cyan") + colored(info[field], "white"))
             
     extra_info = info.get('extra_info')
@@ -236,17 +235,14 @@ def print_user_info(info):
         print(colored("------------------", "blue"))
         print(colored("Info:", "cyan"), colored(extra_info, "white"))
         
-# Calculate total size of password files
 def calculate_total_size(password_files):
     total_size = 0
     for password_file in password_files:
         if os.path.exists(password_file):
             total_size += os.path.getsize(password_file)
-    # Convert size to megabytes
     total_size_mb = total_size / (1024 * 1024)
     return total_size_mb
 
-# Calculate total number of combinations
 def calculate_total_combinations(words):
     total_combinations = 0
     for r in range(1, len(words) + 1):
@@ -269,7 +265,6 @@ def format_time(seconds):
     hours, minutes = divmod(minutes, 60)
     return f"{int(hours):02d}:{int(minutes):02d}:{seconds:.2f}"
   
-# Main program
 if __name__ == "__main__":
     picture = colored("""
             
