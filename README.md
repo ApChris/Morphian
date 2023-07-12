@@ -5,7 +5,7 @@ Morphian is a python3 tool designed to generate unique passwords by combining sp
 ## Purpose and Design
 
 The tool has not been designed to generate all potential combinations of these characteristics combined with special characters. Instead, it focuses on providing the user with four wordlists containing possible passwords categorized into different strength levels based on their predictability.
-The intention behind this design is to allow the user to start with more guessable passwords and then gradually progress to more secure and less predictable options.
+The intention behind this design is to prioritize the brute force attempts by starting with more guessable passwords and then gradually progress to more secure and less predictable options.
 
 ## Installation
 
